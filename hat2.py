@@ -27,6 +27,7 @@ Support = os.getenv("Support", "https://t.me/RISHIHEARTMAKER")
 # Required channels for force join
 REQUIRED_CHANNELS = [
     #"@TEAM56RJ",
+    "@Team56Tricks",
     "@+sC5DKprbu0E0ZGNk",
     "@TEAM56RJ",
     #"@HunterXSigma",
