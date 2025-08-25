@@ -28,7 +28,7 @@ Support = os.getenv("Support", "https://t.me/RISHIHEARTMAKER")
 REQUIRED_CHANNELS = [
     #"@TEAM56RJ",
     "@+sC5DKprbu0E0ZGNk",
-    "@BlackHatsssss",
+    "@TEAM56RJ",
     #"@HunterXSigma",
     #"@+UyoEvMS5XAxkNTc0",
     #"@+2P-OUmWo1hc0NmNh",
