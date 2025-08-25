@@ -23,7 +23,7 @@ ADMIN_IDs = int(os.getenv("ADMIN_IDs", 7761576669))  ## Add admin ID for /hiden_
 #ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "7761576669", "6884253109").split(",")]
 DEV_LINK = os.getenv("DEV_LINK", "https://t.me/hiden_25")
 CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/TEAM56RJ")
-Support = os.getenv("Support", "https://t.me/OpxAli")
+Support = os.getenv("Support", "https://t.me/RISHIHEARTMAKER")
 # Required channels for force join
 REQUIRED_CHANNELS = [
     #"@TEAM56RJ",
@@ -88,7 +88,7 @@ def get_join_channel_message():
         "⚠️ <b>Please join all required channels to use this bot!</b>\n\n"
         "Click the buttons below to join the channels, then press 'Check Membership'.\n"
         "━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @OpxAli And bot dev @hiden_25 ❤️</i>"
+        "<i>Powered by @RISHIHEARTMAKER And bot dev @hiden_25 ❤️</i>"
     ), InlineKeyboardMarkup(keyboard)
 
 # ====== Stats Command ======
@@ -103,7 +103,7 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"📊 <b>Bot Statistics</b>\n\n"
         f"👥 Total Users: {total_users}\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @OpxAli And bot dev @hiden_25 ❤️</i>",
+        "<i>Powered by @RISHIHEARTMAKER And bot dev @hiden_25 ❤️</i>",
         parse_mode="HTML"
     )
 # ====== acchubb.py ka OTP monitor ========
@@ -180,7 +180,7 @@ def otp_monitor_acchubb():
                 f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
                 f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
                 "━━━━━━━━━━━━━━━━━━━━━━\n"
-                "⚡️ <i>Powered by @OpxAli Bot dev @hiden_25 🔱</i>\n"
+                "⚡️ <i>Powered by @RISHIHEARTMAKER Bot dev @hiden_25 🔱</i>\n"
                 "━━━━━━━━━━━━━━━━━━━━━━"
             )
             send_telegram_message(msg)
@@ -198,7 +198,7 @@ def otp_monitor_acchubb():
                     f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
                     f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
                     "━━━━━━━━━━━━━━━━━━━━\n"
-                    "⚡️ <i>Powered by @OpxAli Bot Dev @hiden_25 ❤️</i>\n"
+                    "⚡️ <i>Powered by @RISHIHEARTMAKER Bot Dev @hiden_25 ❤️</i>\n"
                     "━━━━━━━━━━━━━━━━━━━━"
                 )
                 send_telegram_message(msg)
@@ -367,7 +367,7 @@ async def send_number_message(query, data, country_id, carrier_id, changed=False
     msg = (
         ("🔄 <b>Number Changed!</b>\n\n" if changed else "✅ <b>Number Added Successfully!</b>\n\n") +
         f"📞 <b>Number:</b> <code>{data.get('did')}</code>\n"
-        f"<i>Developed by @OpxAli Bot Dev @hiden_25 ❤️</i>"
+        f"<i>Developed by @RISHIHEARTMAKER Bot Dev @hiden_25 ❤️</i>"
     )
     keyboard = [
         [
@@ -396,7 +396,7 @@ async def hiden_25(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "📢 <b>Broadcast Message</b>\n\n"
         f"{html.escape(broadcast_message)}\n\n"
         "━━━━━━━━━━━━━━━━━━━━━━\n"
-        "<i>Powered by @OpxAli Bot dev @hiden_25 ❤️</i>"
+        "<i>Powered by @RISHIHEARTMAKER Bot dev @hiden_25 ❤️</i>"
     )
     sent_count = 0
     failed_count = 0
