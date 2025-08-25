@@ -26,7 +26,7 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/TEAM56RJ")
 Support = os.getenv("Support", "https://t.me/RISHIHEARTMAKER")
 # Required channels for force join
 REQUIRED_CHANNELS = [
-    "@TEAM56RJ",
+    #"@TEAM56RJ",
     "@+sC5DKprbu0E0ZGNk",
     "@BlackHatsssss",
     #"@HunterXSigma",
